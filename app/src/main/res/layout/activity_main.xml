@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ekeitho.com.dagga.MainActivity">
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="24dp"
+        android:text="Animal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="24dp"
+        android:text="Galaxy"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="24dp"
+        android:text="Person"
+        android:textSize="18sp" />
+
+</LinearLayout>
